@@ -1,0 +1,17 @@
+{
+  "name": "pc-cheak-api",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Pc-Cheak Node.js API server for GitHub Pages + Windows desktop client",
+  "main": "server.web.js",
+  "scripts": {
+    "start": "node server.web.js",
+    "dev": "node server.web.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
